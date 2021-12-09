@@ -1,0 +1,52 @@
+/*Alexander Rasoli */
+.headers {
+  animation-name: headers;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+@keyframes headers {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: -10px;
+  }
+}
+
+.picture {
+  height: 29rem;
+  margin: auto;
+  display: block;
+  animation-name: picture;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes picture {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+p,
+h4,
+a,
+ul {
+  animation-name: text;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
